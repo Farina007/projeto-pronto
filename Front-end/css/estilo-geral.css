@@ -1,0 +1,28 @@
+*{  /*resetar o navegador*/
+
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+
+html, body{ 
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif; /*fontes*/
+    color: black; /*cor da fonte*/
+    font-size: 62.5%;
+    text-rendering: optimizeLegibility;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+       
+    background: linear-gradient(
+        90deg,
+        rgba(65, 184, 131, 1) 0%,
+        rgba(0, 212, 255, 1) 100%
+    );
+}
